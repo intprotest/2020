@@ -1,4 +1,13 @@
-if(window.location.hash != ''){
+
+
+let map = new Map();
+
+map.set("-Abasha","");
+map.set("-Adigeni","");
+map.set("-Akhalgori","");
+map.set("-Batumi","batumi");
+
+if(window.location.hash !== ''){
 var hash = location.hash.substr(1);
 getMunInfo (hash);
 }
@@ -11,9 +20,18 @@ window.location.hash = '#' + $(this).attr("id").split('MUN')[1];
     $('#searchinput').focus();
 });
 
+
 function getMunInfo(mun_id) {
+
+	let state = map.get(mun_id);
+
+	if(state){
+		state = "/"+state;
+	}else{
+		state = "";
+	}
 	
-	$.get( `/2020/engine/MUN${mun_id}.php`,{
+	$.get( `engine${state}/MUN${mun_id}.php`,{
 		
 		
 		mun_id: mun_id

@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
     <!-- Bootstrap -->
-    <link href="/2020/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Latest compiled and minified CSS -->
     <!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">-->
@@ -20,7 +20,7 @@
     <!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">-->
 
     <!-- Custom styles -->
-    <link href="/2020/css/munreg.css" rel="stylesheet">
+    <link href="css/munreg.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,8 +29,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-<link href='/2020/material/css/ripples.min.css' rel="stylesheet">
-<link href='/2020/material/css/material-wfont.min.css' rel="stylesheet">
+<link href='material/css/ripples.min.css' rel="stylesheet">
+<link href='material/css/material-wfont.min.css' rel="stylesheet">
 
   </head>
   <body>
@@ -621,17 +621,17 @@
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins)
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
 
-<script src="/2020/js/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
 
-<script src="/2020/js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
  <!--<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
-<script src="/2020/material/js/ripples.min.js"></script>
-<script src="/2020/material/js/material.min.js"></script>
-<script src="/2020/js/bootstrap-list-filter.src.js"></script>
+<script src="material/js/ripples.min.js"></script>
+<script src="material/js/material.min.js"></script>
+<script src="js/bootstrap-list-filter.src.js"></script>
 
-<script src="/2020/js/geokbd.js"></script>   
+<script src="js/geokbd.js"></script>
 
-<script src="/2020/js/munreg.js"></script>
+<script src="js/munreg.js"></script>
 
 
 
